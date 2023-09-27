@@ -33,10 +33,10 @@ public class Dados extends AppCompatActivity {
         String telefoneSalvo = TelaDois.sharedPreferences.getString("telefone", "");
         String generoSalvo = TelaDois.sharedPreferences.getString("genero", "");
 
-        textViewNome.setText(nomeSalvo);
-        textViewSobrenome.setText(sobrenomeSalvo);
-        textViewNumero.setText(telefoneSalvo);
-        textViewGenero.setText(generoSalvo);
+        textViewNome.setText("Nome: " + nomeSalvo);
+        textViewSobrenome.setText("Sobrenome: " + sobrenomeSalvo);
+        textViewNumero.setText("Telefone: " + telefoneSalvo);
+        textViewGenero.setText("Gênero: " + generoSalvo);
 
     }
 
