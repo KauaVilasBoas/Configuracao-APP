@@ -82,7 +82,7 @@ public class TelaDois extends AppCompatActivity {
         editor.apply();
 
         AlertDialog.Builder msg = new AlertDialog.Builder(this);
-        msg.setMessage(nome.toString() + " você foi cadastrado com sucesso!");
+        msg.setMessage("Cadastrado com sucesso!");
         msg.show();
     }
 
